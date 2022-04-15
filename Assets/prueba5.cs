@@ -58,35 +58,31 @@ public class prueba5 : MonoBehaviour
         {
             Debug.Log("La cantidad de producto debe ser mayor a cero");
         }
-        if(cantidadproducto1 >= 3 && cantidadproducto2 >= 3 && cantidadproducto3 >= 3)
-        {
-            Debug.Log("El total de los tres productos es de " + preciototal);
-        }
-        if(cantidadproducto1 <= 3)
+        else if(cantidadproducto1 >= 3)
         {
             Debug.Log("Su total es " + preciototal + " el descuento es de " + descuentoproducto1 + " si aplicamos el descuento, su total es de " + preciocondescuento1);
         }
-        if (cantidadproducto2 <= 3)
+        else if (cantidadproducto2 >= 3)
         {
             Debug.Log("Su total es " + preciototal + " el descuento es de " + descuentoproducto2 + " si aplicamos el descuento, su total es de " + preciocondescuento2);
         }
-        if (cantidadproducto3 <= 3)
+        else if(cantidadproducto3 >= 3)
         {
             Debug.Log("Su total es " + preciototal + " el descuento es de " + descuentoproducto3 + " si aplicamos el descuento, su total es de " + preciocondescuento3);
         }
-        if (cantidadproducto1 <= 3 && cantidadproducto2 <= 3)
+        else if(cantidadproducto1 >= 3 && cantidadproducto2 >= 3)
         {
             Debug.Log("Su total es " + preciototal + " el descuento es de " + descuentoproducto12 +  " si aplicamos el descuento, su total es de " + preciocondescuento12);
         }
-        if (cantidadproducto1 <= 3 && cantidadproducto3 <= 3)
+        else if(cantidadproducto1 >= 3 && cantidadproducto3 >= 3)
         {
             Debug.Log("Su total es " + preciototal + " el descuento es de " + descuentoproducto13 + " si aplicamos el descuento, su total es de " + preciocondescuento13);
         }
-        if (cantidadproducto2 <= 3 && cantidadproducto3 <= 3)
+        else if(cantidadproducto2 >= 3 && cantidadproducto3 >= 3)
         {
             Debug.Log("Su total es " + preciototal + " el descuento es de " + descuentoproducto23 + " si aplicamos el descuento, su total es de " + preciocondescuento23);
         }
-        if (cantidadproducto2 <= 3 && cantidadproducto3 <= 3 && cantidadproducto1 <= 3)
+        else if(cantidadproducto2 >= 3 && cantidadproducto3 >= 3 && cantidadproducto1 >= 3)
         {
             Debug.Log("Su total es " + preciototal + " el descuento es de " + descuentoproducto123 + " si aplicamos el descuento, su total es de " + preciocondescuento123);
         }
